@@ -171,7 +171,7 @@ void idModelExport::LoadMayaDll( void ) {
 =====================
 idModelExport::ConvertMayaToMD5
 
-Checks if a Maya model should be converted to an MD5, and converts if if the time/date or
+Checks if a Maya model should be converted to an MD5, and converts it if the time/date or
 version number has changed.
 =====================
 */
