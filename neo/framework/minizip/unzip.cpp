@@ -875,7 +875,7 @@ extern int ZEXPORT unzGetGlobalInfo (unzFile file, unz_global_info* pglobal_info
     return UNZ_OK;
 }
 /*
-   Translate date/time from Dos format to tm_unz (readable more easilty)
+   Translate date/time from Dos format to tm_unz (readable more easily)
 */
 local void unz64local_DosDateToTmuDate (ZPOS64_T ulDosDate, tm_unz* ptm)
 {
